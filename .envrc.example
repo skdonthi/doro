@@ -1,0 +1,2 @@
+export CLOUDFLARE_API_TOKEN="$(security find-generic-password -a "$USER" -s cloudflare-api-token-doro -w)"
+export AWS_REGION=eu-central-1
